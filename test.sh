@@ -1,9 +1,16 @@
 #!/bin/bash
+clear
+read -p "Vui Lòng Nhập Key: " key
 
-read -p "Vui Lòng Nhập Domain: " domain
-
-if [[ $domain == nghi ]]; then echo "speed4g.xyz"
-elif [[ $domain == hoang ]]; then echo "vpndata.xyz"
-else echo "Website Không Được Cấp Phép !"
+if [[ $key == nguyenvannghi ]]; then
+echo "Xác Thực Thành Công" 
+sleep 5
+bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/test/main/test1.sh)
+elif [[ $key == dangvanhoang ]]; then
+echo "Xác Thực Thành Công" 
+sleep 5
+bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/test/main/test1.sh)
+else echo "Key Không Chính Xác !"
+exit
 fi
 
