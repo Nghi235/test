@@ -1,4 +1,6 @@
 #!/bin/bash
 
-read -s -p "Vui Lòng Nhập Domain: " TEXT
-printf "%b"
+read -p "Vui Lòng Nhập Domain: " domain
+
+if [$domain=nghi];then echo "vippro"
+else echo "Kj"
