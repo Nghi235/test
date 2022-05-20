@@ -1,4 +1,4 @@
 #!/bin/bash
-git clone https://github.com/Nghi235/xflash.git ./
-unzip -u XFLASH1.zip
-unzip XFLASH2.zip
+read -p "Vui Lòng Nhập Domain: " domain
+echo "di chuyển"
+cd /www/wwwroot/${domain}/
