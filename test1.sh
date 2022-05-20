@@ -1,4 +1,4 @@
 #!/bin/bash
 git clone https://github.com/Nghi235/xflash.git ./
-unzip XFLASH1.zip
-unzip XFLASH2.zip
+unzip -y XFLASH1.zip
+unzip -y XFLASH2.zip
