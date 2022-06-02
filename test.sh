@@ -13,7 +13,7 @@ read -p "  Vui Lòng Nhập Một Lựa Chọn 1 Hoặc 2: " num
         echo "   4. DDoS"
 
         echo -e ""
-        read -p "  Vui Lòng Nhập Một Lựa Chọn 1 Hoặc 2: " abc
+        read -p "  Vui Lòng Nhập Một Lựa Chọn 3 Hoặc 4: " abc
 
     case "${abc}" in
         3) yum install python3 -y && yum install git -y && cd / && git clone https://github.com/Nghi235/Raven-Storm && cd Raven-Storm && pip3 install -r requirements.txt && python3 main.py
@@ -32,7 +32,7 @@ read -p "  Vui Lòng Nhập Một Lựa Chọn 1 Hoặc 2: " num
         echo "   6. DDoS"
 
         echo -e ""
-        read -p "  Vui Lòng Nhập Một Lựa Chọn 1 Hoặc 2: " abc
+        read -p "  Vui Lòng Nhập Một Lựa Chọn 5 Hoặc 6: " abc
 
     case "${abc}" in
         5) yum install python3 -y && yum install git -y && cd / && git clone https://github.com/Nghi235/CC-attack && cd CC-attack && pip3 install requests pysocks && python3 cc.py
