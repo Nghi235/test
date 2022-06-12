@@ -2,7 +2,7 @@
 
 
 read -p "  Nhập Domain: " domain
-cd {$domain}
+bash -c 'cd $domain'
 
 
   
