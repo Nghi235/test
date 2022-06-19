@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-read -p "  Nhập Domain: " domain
-bash -c 'cd $domain'
-
+currload=$(top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}')
+currload=$(echo "$currload/1" | bc)
+return $currload
 
   
 
